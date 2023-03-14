@@ -1,0 +1,31 @@
+#menu {
+  margin-top: 107px;
+}
+#menu > .nav-item {
+  width: 106%;
+}
+
+#menu > li {
+  border-radius: 12px;
+}
+#menu > li > a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+#menu > li > a > i {
+  margin-left: 10px;
+}
+
+#menu > li > a:hover {
+  background: #0d4c6b;
+  color: #ffffff;
+}
+#menu > .active > a {
+  background: #0d4c6b;
+  color: #ffffff;
+}
