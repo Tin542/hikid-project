@@ -218,8 +218,9 @@
 #contact-email > .contact-container > .input-group {
   width: 100%;
   text-align: center;
-  padding-left: 224px;
-  padding-right: 224px;
+  width: 58%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #contact-email > .contact-container > .input-group > button {
