@@ -1,0 +1,93 @@
+@import "./nav.css";
+@import "./sidebar.css";
+@import "./footer.css";
+
+#container {
+  padding-top: 80px;
+  /* padding-left: 256px; */
+}
+
+#banner {
+  width: 100%;
+  height: auto;
+  margin-top: 66px;
+}
+#banner > img {
+  object-fit: cover;
+  width: 100%;
+}
+#row-container {
+  text-align: center;
+}
+#left-link > ul {
+  border-left: 2px solid #092837;
+}
+
+#left-link > ul > li {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 42px;
+
+  color: #000000;
+  list-style-type: none;
+}
+#left-link > ul > li > span {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 30px;
+  color: #000000;
+}
+#left-link > ul > li > a {
+  text-decoration: none;
+  font-weight: 100;
+  font-size: 17px;
+  color: #000000;
+}
+#left-link > ul > li > a:hover {
+  text-decoration: underline;
+  font-weight: 100;
+  font-size: 17px;
+  color: #0000ff;
+}
+#row > div > span {
+  font-family: iCiel Cucho;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 58%;
+  color: #000000;
+}
+#row > div > img {
+    margin-top: 10px;
+}
+
+#row > div:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+
+#row-container > .paging-container {
+  margin-top: 20px;
+}
+#row-container > .paging-container > a {
+  font-family: "Roboto";
+  font-style: normal;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  color: #000000;
+}
+#row-container > .paging-container > a:hover {
+  text-decoration: underline;
+
+  color: #0000ff;
+}
