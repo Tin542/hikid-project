@@ -1,0 +1,77 @@
+@import "./nav.css";
+@import "./sidebar.css";
+@import "./footer.css";
+
+#container {
+  padding-top: 80px;
+  /* padding-left: 256px; */
+}
+
+#row-container {
+  font-family: "Roboto";
+  font-style: normal;
+  /* font-weight: 800;
+  font-size: 40px; */
+  line-height: 47px;
+
+  color: #0d4c6b;
+  padding: 20px;
+}
+#row-container > h1 {
+  font-weight: 800;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 37px;
+  margin-top: 37px;
+}
+
+#row-container > .detail-container {
+  display: flex;
+  margin-bottom: 65px;
+}
+#row-container > .detail-container > .detail-content {
+  width: 48%;
+  margin-left: 45px;
+  margin-right: 140px;
+}
+
+#row-container > .detail-container > .detail-content > h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 41px;
+
+  color: #0395ce;
+  margin-bottom: 25px;
+}
+
+#row-container > .detail-container > .detail-content > p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 110%;
+  /* or 30px */
+
+  color: #000000;
+}
+
+#row-container > .detail-container > .detail-content > p > span {
+  font-weight: 700;
+}
+
+@media (max-width: 1111px) {
+  #row-container > .detail-container {
+    display: block;
+    margin-bottom: 65px;
+  }
+  #container {
+    text-align: center;
+  }
+  #row-container > .detail-container > .detail-content {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
