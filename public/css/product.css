@@ -51,7 +51,16 @@
   font-size: 17px;
   color: #0000ff;
 }
-#row > div > span {
+#product-menu > .active > a {
+  text-decoration: underline;
+  font-weight: 100;
+  font-size: 17px;
+  color: #0000ff;
+}
+#row > div > a {
+  text-decoration: none;
+}
+#row > div > a > span {
   font-family: iCiel Cucho;
   font-style: normal;
   font-weight: 400;
@@ -64,7 +73,7 @@
   width: 58%;
   color: #000000;
 }
-#row > div > img {
+#row > div > a > img {
     margin-top: 10px;
 }
 
