@@ -47,3 +47,7 @@ const colorChosen = () => {
   }
 };
 colorChosen();
+
+function handleButtonClick() {
+  window.location.href = "cart.html";
+}

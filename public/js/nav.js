@@ -34,7 +34,7 @@ const createNav = () => {
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="cart.html">
                   <i class="bi bi-cart2"></i>
                 </a>
               </li>
