@@ -48,9 +48,10 @@ const createFooter = () => {
             <li style="font-weight: 800">Menu</li>
             <li><a href="index.html">Trang chủ</a></li>
             <li><a href="program.html">Chương trình đào tạo</a></li>
-            <li><a href="#">Về chúng tôi</a></li>
+            <li><a href="about.html">Về chúng tôi</a></li>
             <li><a href="#">Tình trạng sức khỏe</a></li>
-            <li><a href="#">Liên hệ</a></li>
+            <li><a href="product.html">Sản phẩm</a></li>
+            <li><a href="contact.html">Liên hệ</a></li>
           </ul>
         </div>
       </div>
