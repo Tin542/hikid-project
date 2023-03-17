@@ -12,3 +12,7 @@ function decreaseValue() {
   value--;
   document.getElementById("number").value = value;
 }
+
+function handleCheckOutButton(){
+  window.location.href = 'checkout.html';
+}

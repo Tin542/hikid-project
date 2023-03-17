@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hi!Kid</title>
+    <link href="css/checkout.css" rel="stylesheet" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+  </head>
+
+  <body>
+    <div class="nav-bar"></div>
+    <main>
+      <div class="container-fluid">
+        <div class="row flex-nowrap">
+          <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-white">
+            <div
+              class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100"
+            >
+              <ul
+                class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start"
+                id="menu"
+              >
+                <li class="nav-item align-middle px-0">
+                  <a href="index.html" class="nav-link px-0 align-middle">
+                    <i class="fs-4 bi-house-door"></i>
+                    <span class="ms-1 d-none d-sm-inline">Trang chủ</span>
+                  </a>
+                </li>
+
+                <li class="nav-item align-middle px-0">
+                  <a href="program.html" class="nav-link px-0 align-middle">
+                    <i class="fs-4 bi-palette"></i>
+                    <span class="ms-1 d-none d-sm-inline"
+                      >Chương trình đào tạo</span
+                    ></a
+                  >
+                </li>
+                <li class="nav-item align-middle px-0">
+                  <a href="about.html" class="nav-link px-0 align-middle">
+                    <i class="fs-4 bi-bookmark"></i>
+                    <span class="ms-1 d-none d-sm-inline">Về chúng tôi</span></a
+                  >
+                </li>
+                <li class="nav-item align-middle px-0 active">
+                  <a href="product.html" class="nav-link px-0 align-middle">
+                    <i class="fs-4 bi-bag"></i>
+                    <span class="ms-1 d-none d-sm-inline">Sản phẩm</span></a
+                  >
+                </li>
+
+                <li class="nav-item align-middle px-0">
+                  <a href="contact.html" class="nav-link px-0 align-middle">
+                    <i class="fs-4 bi-telephone"></i>
+                    <span class="ms-1 d-none d-sm-inline">Liên hệ</span>
+                  </a>
+                </li>
+              </ul>
+              <hr />
+            </div>
+          </div>
+          <div class="col pt-3 bg-light">
+            <div id="container" class="container-fluid">
+              <div class="container">
+                <div id="row-container" class="row">
+                  <div class="col-lg-6">
+                    <div class="form-container">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Tên phụ huynh..."
+                      />
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="SĐT..."
+                      />
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Địa chỉ..."
+                      />
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Tên bé..."
+                      />
+                      <input
+                        type="text"
+                        class="form-control"
+                        style="width: 30%"
+                        placeholder="Lớp..."
+                      />
+                      <textarea
+                        class="form-control"
+                        placeholder="Ghi chú..."
+                        rows="7"
+                      ></textarea>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="info-container">
+                      <h2>Đơn hàng của bạn</h2>
+                      <table class="table table-borderless">
+                        <thead>
+                          <tr style="border-bottom: 1px solid #000000">
+                            <th>Sản phẩm</th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th style="text-align: right">Tạm tính</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Balo cá mập</td>
+                            <td></td>
+                            <td></td>
+                            <td style="text-align: right; font-weight: bold">
+                              x1
+                            </td>
+                            <td style="text-align: right">300.000đ</td>
+                          </tr>
+                          <tr style="border-bottom: 1px solid #000000">
+                            <td>Balo pikachu</td>
+                            <td></td>
+                            <td></td>
+                            <td style="text-align: right; font-weight: bold">
+                              x1
+                            </td>
+                            <td style="text-align: right">180.000đ</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <div class="payment-container">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault1"
+                          />
+                          <label
+                            class="form-check-label"
+                            for="flexRadioDefault1"
+                          >
+                            Chuyển khoản ngân hàng
+                          </label>
+                          <p>
+                            Thực hiện thanh toán vào ngay tài khoản ngân hàng
+                            của chúng tôi. Vui lòng sử dụng Mã đơn hàng của bạn
+                            trong phần Nội dung thanh toán. Đơn hàng sẽ được
+                            giao sau khi tiền đã chuyển.
+                          </p>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault2"
+                            checked
+                          />
+                          <label
+                            class="form-check-label"
+                            for="flexRadioDefault2"
+                          >
+                            Thanh toán và giao tại lớp cho bé
+                          </label>
+                          <p>
+                            Phụ huynh chỉ cần đặt hàng và tiến hành chuyển khoản
+                            vào tài khoản của trường. Đơn hàng sẽ được chuẩn bị
+                            và giao khi phụ huynh đến đón Bé về.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="btn-pay">
+                        <button>Thanh toán</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="back-container">
+                <a href="cart.html">Quay lại giỏ hàng</a>
+              </div>
+
+              <div id="footer" class="row g-3">
+                <div class="footer"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="js/nav.js"></script>
+    <script src="js/sidebar.js"></script>
+    <script src="js/checkout.js"></script>
+    <script src="js/footer.js"></script>
+  </body>
+</html>

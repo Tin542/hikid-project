@@ -1,0 +1,136 @@
+@import "./nav.css";
+@import "./sidebar.css";
+@import "./footer.css";
+
+#container {
+  padding-top: 80px;
+  /* padding-left: 256px; */
+}
+#container > .back-container {
+  text-align: center;
+}
+#container > .back-container > a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+
+  text-decoration-line: underline;
+
+  color: #000000;
+}
+
+#container > .back-container > a:hover {
+  color: #0000ff;
+}
+
+#row-container {
+  margin-top: 50px;
+}
+
+#row-container > .col-lg-6 {
+  text-align: left;
+}
+
+#row-container > .col-lg-6 > .form-container {
+  padding: 10px;
+}
+
+#row-container > .col-lg-6 > .form-container > input {
+  border: 2px solid #0d4c6b;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 10px;
+  margin-bottom: 25px;
+  height: 60px;
+}
+
+#row-container > .col-lg-6 > .form-container > textarea {
+  border: 2px solid #0d4c6b;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 10px;
+  margin-bottom: 30px;
+  height: auto;
+}
+
+#row-container > .col-lg-6 > .info-container {
+  background: #ececec;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#row-container > .col-lg-6 > .info-container > h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 41px;
+  text-align: left;
+
+  color: #0d4c6b;
+}
+
+#row-container > .col-lg-6 > .info-container > .payment-container {
+  margin-top: 30px;
+}
+
+#row-container
+  > .col-lg-6
+  > .info-container
+  > .payment-container
+  > .form-check
+  > label {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+}
+
+#row-container
+  > .col-lg-6
+  > .info-container
+  > .payment-container
+  > .form-check
+  > p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 180%;
+  color: #000000;
+  opacity: 0.5;
+}
+
+#row-container > .col-lg-6 > .info-container > .btn-pay {
+  margin-top: 100px;
+  text-align: right;
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+#row-container > .col-lg-6 > .info-container > .btn-pay > button {
+  background: #0d4c6b;
+  border-radius: 10px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+
+  color: #ffffff;
+
+  width: 154px;
+  border: none;
+  height: 52px;
+
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+}
+
+#row-container > .col-lg-6 > .info-container > .btn-pay > button:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
+  background: #188fc9;
+  color: #ffffff;
+}
